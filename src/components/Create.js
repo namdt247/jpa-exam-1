@@ -63,6 +63,9 @@ function Create() {
                             }}
                             value={wage}
                         />
+                        <div className="text-danger">
+                            {error2}
+                        </div>
                     </Form.Group>
                 </Col>
             </Row>
